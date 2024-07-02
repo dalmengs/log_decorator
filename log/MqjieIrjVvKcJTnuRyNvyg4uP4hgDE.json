@@ -1,0 +1,9 @@
+{
+    "log_id": "MqjieIrjVvKcJTnuRyNvyg4uP4hgDE",
+    "user_id": null,
+    "status_code": 400,
+    "tag": "custom_exception",
+    "execution_time": null,
+    "request_data": "{}",
+    "response_data": "arg x must not be zero."
+}

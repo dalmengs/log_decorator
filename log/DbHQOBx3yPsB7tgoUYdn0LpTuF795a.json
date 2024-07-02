@@ -1,0 +1,9 @@
+{
+    "log_id": "DbHQOBx3yPsB7tgoUYdn0LpTuF795a",
+    "user_id": null,
+    "status_code": 500,
+    "tag": "exception",
+    "execution_time": null,
+    "request_data": "{}",
+    "response_data": "Traceback (most recent call last):\n  File \"/Users/ijuhyeong/Desktop/development/log_decorator/decorator.py\", line 31, in Log\n    result = await func(*args_list)\n             ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/ijuhyeong/Desktop/development/log_decorator/main.py\", line 45, in exception_function\n    \"result\": division(2, 0)\n              ^^^^^^^^^^^^^^\n  File \"/Users/ijuhyeong/Desktop/development/log_decorator/main.py\", line 9, in division\n    res = x // y\n          ~~^^~~\nZeroDivisionError: integer division or modulo by zero\n"
+}
